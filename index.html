@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Toronto Toilet Reviews</title>
+  <meta name="description" content="Toronto Toilet Reviews — a guide to toilets around Toronto." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64" role="img" aria-label="Toilet icon">
+            <path d="M18 18c0-3.3 2.7-6 6-6h7c3.3 0 6 2.7 6 6v10c0 3.3-2.7 6-6 6h-7c-3.3 0-6-2.7-6-6V18Z" />
+            <path d="M16 38h26c4.4 0 8 3.6 8 8v2c0 5.5-4.5 10-10 10H27c-6.1 0-11-4.9-11-11V38Z" />
+            <path d="M43 16h5c2.8 0 5 2.2 5 5v13" />
+            <path d="M29 58v4" />
+            <path d="M39 58v4" />
+          </svg>
+        </div>
+        <div>
+          <div class="brand-title">Toronto Toilet Reviews</div>
+          <div class="small">For when you desperately need to take a s***</div>
+        </div>
+      </div>
+      <nav class="nav-links">
+        <a href="#reviews">Reviews</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <article class="hero-card">
+          <div class="eyebrow">Toronto restroom guide</div>
+          <h1>Toronto Toilet Reviews</h1>
+          <p class="hero-subtitle">For when you desperately need to take a s***</p>
+          <p>
+            I tried all the best places to go to the toilet so that you don't have to.
+          </p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#reviews">Browse reviews</a>
+          </div>
+        </article>
+
+        <aside class="panel stats">
+          <div class="stat">
+            <div class="stat-label">Total reviews</div>
+            <div class="stat-value" id="stat-count">0</div>
+          </div>
+          <div class="stat">
+            <div class="stat-label">Average rating</div>
+            <div class="stat-value" id="stat-average">0.0</div>
+          </div>
+          <div class="stat">
+            <div class="stat-label">Areas covered</div>
+            <div class="stat-value" id="stat-areas">0</div>
+          </div>
+          <div class="stat">
+            <div class="stat-label">Password-free spots</div>
+            <div class="stat-value" id="stat-password-free">0</div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="reviews">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2>Reviews</h2>
+            <p class="muted">Search by location, area, or what kind of bathroom emergency you are dealing with.</p>
+          </div>
+          <div class="small" id="results-count"></div>
+        </div>
+
+        <div class="panel">
+          <div class="controls">
+            <div>
+              <label for="searchInput">Search</label>
+              <input id="searchInput" type="text" placeholder="Search title, location, area, accessibility, or review text" />
+            </div>
+            <div>
+              <label for="areaFilter">Area</label>
+              <select id="areaFilter">
+                <option value="all">All areas</option>
+              </select>
+            </div>
+            <div>
+              <label for="sortSelect">Sort</label>
+              <select id="sortSelect">
+                <option value="newest">Newest first</option>
+                <option value="oldest">Oldest first</option>
+                <option value="highest">Highest rating</option>
+                <option value="lowest">Lowest rating</option>
+                <option value="area">Area A–Z</option>
+                <option value="location">Location A–Z</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div id="reviewGrid" class="review-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-copy">Reviewed with urgency. Rated with dignity.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
