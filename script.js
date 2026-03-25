@@ -1,101 +1,17 @@
-alert("script loaded");
 const REVIEWS = [
   {
-    title: "Union Station Concourse Relief Stop",
-    location: "Union Station, West Concourse",
-    area: "Downtown",
-    accessibility: "Easily Accessible",
-    passwordRequired: false,
-    password: "",
-    rating: 4,
-    date: "2026-03-22",
-    summary:
-      "Large, easy to find, and usually cleaned often enough to avoid regret. Strong emergency value because it is close to major transit flow and clearly signed."
-  },
-  {
-    title: "Reference Library Upper Floor Washroom",
-    location: "Toronto Reference Library, Yonge Street",
-    area: "Yorkville",
+    title: "Cafe Landwer on Bloor",
+    location: "33 Bloor Street",
+    area: "Church-Wellesley Village, Downtown",
     accessibility: "Limited",
-    passwordRequired: false,
-    password: "",
-    rating: 5,
-    date: "2026-03-18",
-    summary:
-      "Quiet, generally clean, and much calmer than the average downtown option. Best when you want privacy and are already inside the building."
-  },
-  {
-    title: "Market Basement Bathroom",
-    location: "St. Lawrence Market South Building",
-    area: "Old Town",
-    accessibility: "Limited",
-    passwordRequired: false,
-    password: "",
-    rating: 4,
-    date: "2026-03-15",
-    summary:
-      "Solid traffic-to-cleanliness ratio and a dependable option during market hours. Crowding can be an issue, but turnover is fast enough to keep it useful."
-  },
-  {
-    title: "Coffee Shop Washroom With Code",
-    location: "Queen Street West café strip",
-    area: "Queen West",
-    accessibility: "Difficult to Access",
     passwordRequired: true,
-    password: "Ask staff",
-    rating: 3,
-    date: "2026-03-09",
-    summary:
-      "Usable in a crisis, but the code requirement and tight layout reduce the score. It works best if you are already buying something and can move quickly."
-  },
-  {
-    title: "Atrium Food Court Washroom",
-    location: "Atrium on Bay",
-    area: "Downtown",
-    accessibility: "Easily Accessible",
-    passwordRequired: false,
-    password: "",
+    password: "531",
     rating: 4,
-    date: "2026-03-03",
+    date: "2026-03-25",
     summary:
-      "Convenient, central, and relatively easy to reach without awkward detours. Not luxurious, but good enough when the main objective is immediate success."
+      "Very clean. Loud music and a thick door prevents people from listening to your doing your business. Could be more spacious."
   },
-  {
-    title: "Mall Corridor Backup Option",
-    location: "CF Toronto Eaton Centre",
-    area: "Downtown",
-    accessibility: "Easily Accessible",
-    passwordRequired: false,
-    password: "",
-    rating: 3,
-    date: "2026-02-24",
-    summary:
-      "Very easy to locate, though the volume of foot traffic can make the experience hit-or-miss. Reliable as a backup rather than a destination choice."
-  },
-  {
-    title: "Community Centre Ground Floor Washroom",
-    location: "North York Civic Centre area",
-    area: "North York",
-    accessibility: "Limited",
-    passwordRequired: false,
-    password: "",
-    rating: 5,
-    date: "2026-02-10",
-    summary:
-      "One of the better balanced options: clean, roomy, and usually less chaotic than downtown equivalents. Worth remembering if you are in the area."
-  },
-  {
-    title: "Waterfront Lobby Restroom",
-    location: "Harbourfront office tower lobby",
-    area: "Harbourfront",
-    accessibility: "Difficult to Access",
-    passwordRequired: true,
-    password: "Ask concierge",
-    rating: 2,
-    date: "2026-01-28",
-    summary:
-      "The facilities themselves are fine, but getting in can be awkward enough to defeat the purpose. Better as a planned stop than a panic stop."
-  }
+  
 ];
 
 const reviewGrid = document.getElementById("reviewGrid");
