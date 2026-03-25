@@ -1,3 +1,4 @@
+alert("script loaded");
 const REVIEWS = [
   {
     title: "Union Station Concourse Relief Stop",
