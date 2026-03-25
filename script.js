@@ -10,7 +10,19 @@ const REVIEWS = [
     rating: 4,
     date: "2026-03-25",
     summary:
-      "Very clean. Loud music and a thick door prevents people from listening to your doing your business. Could be more spacious."
+      "Very clean. Loud music and a thick door prevents people from listening to you doing your business. Could be more spacious."
+  },
+ {
+  title: "Gerstein Science Information Centre, Public Toilet",
+    location: "9 King's College Circle",
+    area: "Downtown",
+    neighborhood: "University of Toronto",
+    accessibility: "Limited",
+    passwordRequired: false,
+    rating: 3,
+    date: "2026-03-25",
+    summary:
+      "Decently clean. Poor lighting. Need to go down a flight of stairs to reach the toilet."
   },
 ];
 
