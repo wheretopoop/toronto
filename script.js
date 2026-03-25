@@ -1,108 +1,30 @@
 const REVIEWS = [
-  {
-    title: "Union Station Concourse Relief Stop",
-    location: "Union Station, West Concourse",
+    {
+    title: "Cafe Landwer on Bloor",
+    location: "33 Bloor Street East",
     area: "Downtown",
-    neighborhood: "Financial District",
-    accessibility: "Easily Accessible",
-    passwordRequired: false,
-    password: "",
-    rating: 4,
-    date: "2026-03-22",
-    summary:
-      "Large, easy to find, and usually cleaned often enough to avoid regret. Strong emergency value because it is close to major transit flow and clearly signed."
-  },
-  {
-    title: "Reference Library Upper Floor Washroom",
-    location: "Toronto Reference Library, Yonge Street",
-    area: "Midtown",
-    neighborhood: "Yorkville",
+    neighborhood: "Church-Wellesley Village",
     accessibility: "Limited",
-    passwordRequired: false,
-    password: "",
-    rating: 5,
-    date: "2026-03-18",
-    summary:
-      "Quiet, generally clean, and much calmer than the average downtown option. Best when you want privacy and are already inside the building."
-  },
-  {
-    title: "Market Basement Bathroom",
-    location: "St. Lawrence Market South Building",
-    area: "Downtown",
-    neighborhood: "St. Lawrence",
-    accessibility: "Limited",
-    passwordRequired: false,
-    password: "",
-    rating: 4,
-    date: "2026-03-15",
-    summary:
-      "Solid traffic-to-cleanliness ratio and a dependable option during market hours. Crowding can be an issue, but turnover is fast enough to keep it useful."
-  },
-  {
-    title: "Coffee Shop Washroom With Code",
-    location: "Queen Street West café strip",
-    area: "West End",
-    neighborhood: "Queen West",
-    accessibility: "Difficult to Access",
     passwordRequired: true,
-    password: "Ask staff",
-    rating: 3,
-    date: "2026-03-09",
-    summary:
-      "Usable in a crisis, but the code requirement and tight layout reduce the score. It works best if you are already buying something and can move quickly."
-  },
-  {
-    title: "Atrium Food Court Washroom",
-    location: "Atrium on Bay",
-    area: "Downtown",
-    neighborhood: "Discovery District",
-    accessibility: "Easily Accessible",
-    passwordRequired: false,
-    password: "",
+    password: "531",
     rating: 4,
-    date: "2026-03-03",
+    date: "2026-03-24",
     summary:
-      "Convenient, central, and relatively easy to reach without awkward detours. Not luxurious, but good enough when the main objective is immediate success."
+      "Very clean, very accessible (with password). A thick door and music playing from speakers on the ceiling prevent noise leakage while you're doing your business. Could be more spacious."
   },
-  {
-    title: "Mall Corridor Backup Option",
-    location: "CF Toronto Eaton Centre",
+    {
+    title: "Gerstein Library Public Toilet",
+    location: "9 King's College Circle",
     area: "Downtown",
-    neighborhood: "Yonge-Dundas",
-    accessibility: "Easily Accessible",
+    neighborhood: "University of Toronto",
+    accessibility: "Limited",
     passwordRequired: false,
     password: "",
     rating: 3,
-    date: "2026-02-24",
+    date: "2026-03-25",
     summary:
-      "Very easy to locate, though the volume of foot traffic can make the experience hit-or-miss. Reliable as a backup rather than a destination choice."
+      "Decently clean, although could use more lighting. Spacious urinals."
   },
-  {
-    title: "Community Centre Ground Floor Washroom",
-    location: "North York Civic Centre area",
-    area: "North York",
-    neighborhood: "Willowdale",
-    accessibility: "Limited",
-    passwordRequired: false,
-    password: "",
-    rating: 5,
-    date: "2026-02-10",
-    summary:
-      "One of the better balanced options: clean, roomy, and usually less chaotic than downtown equivalents. Worth remembering if you are in the area."
-  },
-  {
-    title: "Waterfront Lobby Restroom",
-    location: "Harbourfront office tower lobby",
-    area: "Downtown",
-    neighborhood: "Harbourfront",
-    accessibility: "Difficult to Access",
-    passwordRequired: true,
-    password: "Ask concierge",
-    rating: 2,
-    date: "2026-01-28",
-    summary:
-      "The facilities themselves are fine, but getting in can be awkward enough to defeat the purpose. Better as a planned stop than a panic stop."
-  }
 ];
 
 const reviewGrid = document.getElementById("reviewGrid");
