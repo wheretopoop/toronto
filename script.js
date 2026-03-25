@@ -23,7 +23,7 @@ const REVIEWS = [
     rating: 3,
     date: "2026-03-25",
     summary:
-      "Decently clean, although could use more lighting. Spacious urinals."
+      "Decently clean, although could use more lighting. Spacious urinals. Requires going down a flight of stairs."
   },
 ];
 
