@@ -35,7 +35,7 @@ const REVIEWS = [
     date: "2026-03-24",
     summary:
       "Very clean, very accessible (with password). A thick door and music playing from speakers on the ceiling prevent noise leakage while you're doing your business. Could be more spacious.",
-    otherNotes: "The code pad is easy to miss when the café is crowded."
+    otherNotes: ""
   }
 ];
 
