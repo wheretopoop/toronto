@@ -50,7 +50,7 @@ const REVIEWS = [
     "aesthetics": 4,
     "facilities": 4.5,
     "date": "2026-03-25",
-    "summary": "Clean, aesthetically pleasing, and an abundance of facilities. Overall, one of the better toilets in UofT",
+    "summary": "Clean, aesthetically pleasing, and an abundance of facilities. Spacious, too. Overall, one of the better toilets in UofT",
     "otherNotes": "Bonus: accessible via wheelchair"
   },
   {
@@ -63,10 +63,10 @@ const REVIEWS = [
     "accessibility": "Limited",
     "passwordRequired": true,
     "password": "531",
-    "featured": false,
+    "featured": true,
     "cleanliness": 5,
     "aesthetics": 4.5,
-    "facilities": 3.5,
+    "facilities": 4.0,
     "date": "2026-03-24",
     "summary": "Very clean, very accessible (with password). A thick door and music playing from speakers on the ceiling prevent noise leakage while you're doing your business. Could be more spacious.",
     "otherNotes": ""
